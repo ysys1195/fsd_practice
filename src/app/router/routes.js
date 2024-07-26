@@ -2,7 +2,7 @@ const routes = [
   {
     path: "/feed",
     name: "Feed",
-    component: "../pages/Feed/index.js",
+    component: "@/pages/Feed/index.js",
   },
 ];
 
