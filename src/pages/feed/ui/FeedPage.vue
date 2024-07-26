@@ -6,3 +6,18 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+.home-page {
+  color: #fff;
+  text-align: center;
+  .banner {
+    background-color: #75b666;
+    height: 100px;
+    width: 100%;
+  }
+  .logo-font {
+    font-size: 30px;
+  }
+}
+</style>

@@ -1,8 +1,10 @@
+import FeedPage from "@/pages/feed/index.js";
+
 const routes = [
   {
     path: "/feed",
     name: "Feed",
-    component: "@/pages/Feed/index.js",
+    component: FeedPage,
   },
 ];
 
