@@ -1,4 +1,5 @@
-import FeedPage from "@/pages/feed/index.js";
+import feedModule from "@/pages/feed";
+const { FeedPage } = feedModule;
 
 const routes = [
   {
