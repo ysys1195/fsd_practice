@@ -16,3 +16,12 @@ export const GET = async (url) => {
     return { error: error.response.data, response: error.response };
   }
 };
+
+export const POST = async (url, data) => {
+  try {
+    const response = await apiClient.post(url, data);
+    return { data: response.data, response };
+  } catch (error) {
+    return { error: error.response.data, response: error.response };
+  }
+};
